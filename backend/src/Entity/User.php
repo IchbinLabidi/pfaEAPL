@@ -39,6 +39,36 @@ class User implements UserInterface
     private $plainPassword;
 
     /**
+     * @ORM\Column(type="string", length=30)
+     */
+    private $nom;
+
+    /**
+     * @ORM\Column(type="string", length=30)
+     */
+    private $prenom;
+
+    /**
+     * @ORM\Column(type="string", length=30)
+     */
+    private $date_nais;
+
+    /**
+     * @ORM\Column(type="string", length=15)
+     */
+    private $num_tlf;
+
+    /**
+     * @ORM\Column(type="string", length=50, nullable=true)
+     */
+    private $adresse;
+
+    /**
+     * @ORM\Column(type="string", length=20)
+     */
+    private $grade;
+
+    /**
      * @return mixed
      */
     public function getPlainPassword()
@@ -132,5 +162,77 @@ class User implements UserInterface
     {
         // If you store any temporary, sensitive data on the user, clear it here
       $this->plainPassword = null;
+    }
+
+    public function getNom(): ?string
+    {
+        return $this->nom;
+    }
+
+    public function setNom(string $nom): self
+    {
+        $this->nom = $nom;
+
+        return $this;
+    }
+
+    public function getPrenom(): ?string
+    {
+        return $this->prenom;
+    }
+
+    public function setPrenom(string $prenom): self
+    {
+        $this->prenom = $prenom;
+
+        return $this;
+    }
+
+    public function getDateNais(): ?string
+    {
+        return $this->date_nais;
+    }
+
+    public function setDateNais(string $date_nais): self
+    {
+        $this->date_nais = $date_nais;
+
+        return $this;
+    }
+
+    public function getNumTlf(): ?string
+    {
+        return $this->num_tlf;
+    }
+
+    public function setNumTlf(string $num_tlf): self
+    {
+        $this->num_tlf = $num_tlf;
+
+        return $this;
+    }
+
+    public function getAdresse(): ?string
+    {
+        return $this->adresse;
+    }
+
+    public function setAdresse(?string $adresse): self
+    {
+        $this->adresse = $adresse;
+
+        return $this;
+    }
+
+    public function getGrade(): ?string
+    {
+        return $this->grade;
+    }
+
+    public function setGrade(string $grade): self
+    {
+        $this->grade = $grade;
+
+        return $this;
     }
 }
