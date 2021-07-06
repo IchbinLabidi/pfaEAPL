@@ -1,0 +1,57 @@
+<?php //App_Entity_Question
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Question',
+                'Subject',
+                'file',
+                'class',
+                'status',
+                'comments',
+                'subject',
+                'id',
+                'datePub',
+                'nbLikes',
+                'content',
+                'nbSignal',
+                'user',
+            ],
+            'attributesMetadata' => [
+                [
+                    'Subject' => $o[1],
+                    'file' => $o[2],
+                    'class' => $o[3],
+                    'status' => $o[4],
+                    'comments' => $o[5],
+                    'subject' => $o[6],
+                    'id' => $o[7],
+                    'datePub' => $o[8],
+                    'nbLikes' => $o[9],
+                    'content' => $o[10],
+                    'nbSignal' => $o[11],
+                    'user' => $o[12],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

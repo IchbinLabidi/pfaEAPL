@@ -1,0 +1,48 @@
+<?php //App_Entity_User
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\User',
+                'id',
+                'firstname',
+                'lastname',
+                'username',
+                'email',
+                'BirthDate',
+                'pwd',
+                'publications',
+                'birthDate',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'firstname' => $o[2],
+                    'lastname' => $o[3],
+                    'username' => $o[4],
+                    'email' => $o[5],
+                    'BirthDate' => $o[6],
+                    'pwd' => $o[7],
+                    'publications' => $o[8],
+                    'birthDate' => $o[9],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

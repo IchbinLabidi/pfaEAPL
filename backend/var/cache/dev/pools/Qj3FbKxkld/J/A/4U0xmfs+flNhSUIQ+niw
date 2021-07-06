@@ -1,0 +1,63 @@
+<?php //App_Entity_Teacher
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Teacher',
+                'discr',
+                'image',
+                'ratingNb',
+                'Speciality',
+                'speciality',
+                'id',
+                'firstname',
+                'lastname',
+                'username',
+                'email',
+                'BirthDate',
+                'pwd',
+                'publications',
+                'birthDate',
+            ],
+            'attributesMetadata' => [
+                [
+                    'discr' => $o[1],
+                    'image' => $o[2],
+                    'ratingNb' => $o[3],
+                    'Speciality' => $o[4],
+                    'speciality' => $o[5],
+                    'id' => $o[6],
+                    'firstname' => $o[7],
+                    'lastname' => $o[8],
+                    'username' => $o[9],
+                    'email' => $o[10],
+                    'BirthDate' => $o[11],
+                    'pwd' => $o[12],
+                    'publications' => $o[13],
+                    'birthDate' => $o[14],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

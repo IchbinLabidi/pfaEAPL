@@ -1,0 +1,57 @@
+<?php //App_Entity_Student
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Student',
+                'discr',
+                'Class',
+                'class',
+                'id',
+                'firstname',
+                'lastname',
+                'username',
+                'email',
+                'BirthDate',
+                'pwd',
+                'publications',
+                'birthDate',
+            ],
+            'attributesMetadata' => [
+                [
+                    'discr' => $o[1],
+                    'Class' => $o[2],
+                    'class' => $o[3],
+                    'id' => $o[4],
+                    'firstname' => $o[5],
+                    'lastname' => $o[6],
+                    'username' => $o[7],
+                    'email' => $o[8],
+                    'BirthDate' => $o[9],
+                    'pwd' => $o[10],
+                    'publications' => $o[11],
+                    'birthDate' => $o[12],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
