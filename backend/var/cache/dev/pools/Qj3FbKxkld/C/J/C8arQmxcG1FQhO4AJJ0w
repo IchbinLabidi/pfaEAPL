@@ -1,0 +1,42 @@
+<?php //App_Entity_Matiere
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Matiere',
+                'id',
+                'id_mat',
+                'lib_mat',
+                'prix_mat',
+                'idMat',
+                'libMat',
+                'prixMat',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'id_mat' => $o[2],
+                    'lib_mat' => $o[3],
+                    'prix_mat' => $o[4],
+                    'idMat' => $o[5],
+                    'libMat' => $o[6],
+                    'prixMat' => $o[7],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

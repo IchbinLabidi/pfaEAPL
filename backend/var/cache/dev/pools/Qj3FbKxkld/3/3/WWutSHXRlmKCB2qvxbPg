@@ -1,0 +1,48 @@
+<?php //App_Entity_Comment
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Comment',
+                'discr',
+                'information',
+                'question',
+                'id',
+                'datePub',
+                'nbLikes',
+                'content',
+                'nbSignal',
+                'user',
+            ],
+            'attributesMetadata' => [
+                [
+                    'discr' => $o[1],
+                    'information' => $o[2],
+                    'question' => $o[3],
+                    'id' => $o[4],
+                    'datePub' => $o[5],
+                    'nbLikes' => $o[6],
+                    'content' => $o[7],
+                    'nbSignal' => $o[8],
+                    'user' => $o[9],
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

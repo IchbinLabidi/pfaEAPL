@@ -4,8 +4,11 @@ namespace App\Entity;
 
 use App\Repository\AdminRepository;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Core\Annotation\ApiResource;
+
 
 /**
+ * @ApiResource
  * @ORM\Entity(repositoryClass=AdminRepository::class)
  */
 class Admin
@@ -18,14 +21,14 @@ class Admin
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=30)
      */
     private $username;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=30)
      */
-    private $password;
+    private $pwd;
 
     public function getId(): ?int
     {
@@ -44,15 +47,15 @@ class Admin
         return $this;
     }
 
-    public function getPassword(): ?string
+
+    public function getPwd(): ?string
     {
-        return $this->password;
+        return $this->pwd;
     }
 
-    public function setPassword(string $password): self
+    public function setPwd(string $pwd): self
     {
-        $this->password = $password;
-
+        $this->pwd = $pwd;
         return $this;
     }
 }
