@@ -1,0 +1,36 @@
+ <div id="sticky-header" class="header_bottom white_bg pl-130 pr-130">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-xl-2 col-lg-2 col-6">
+        <div class="logo">
+          <a routerLink="#"><img src="../../assets/Template/img/logo/logo.png" alt=""></a>
+        </div>
+      </div>
+      <div class="col-xl-7 col-lg-8 d-none d-lg-block">
+        <nav class="main_menu">
+          <ul>
+            <li><a routerLink="home">{{ "HOME" | translate }}</a></li>
+            <li>
+              <a routerLink="blog">{{"BLOG" | translate }}</a>
+               </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-xl-3 col-lg-2 col-6">
+        <div class="header_right">
+          <div class="hero_btn mt-15">
+            <a id="fr" class="thm_btn"  (click)="changeCurrentLang('fr')" >Fr</a>
+            <a id="ar" class="thm_btn thm_btn-2" (click)="changeCurrentLang('ar')" >Ar</a>
+          </div>
+          <div class="hamburger_menu">
+            <a href="javascript:void(0);" class="">
+              <i class="fal fa-bars"></i>
+            </a>
+          </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
