@@ -1,0 +1,32 @@
+<body>
+<section id="carousel">
+  <div class="container">
+    <owl-carousel-o [options]="customOptions">
+      <ng-template carouselSlide *ngFor="let Item of ItemsArray" >
+        <div  class="d-flex justify-content-center">
+          <div class="card text-center" style="width: 25rem; ">
+            <div class="card-img-top mx-auto">
+              <img  src="{{Item.imgName}}" alt="">
+            </div>
+            <div class="card-body ">
+              <h5 class="card-title font-weight-bold">SOMEONE FAMOUS</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor.</p>
+              <div class="socials ">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="far fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+</section>
+</body>
+
+
+
+
